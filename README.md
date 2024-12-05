@@ -27,13 +27,14 @@ print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) # Urban ~ urBAN
 print(is_contains('cycle', ['recycling', 'cyclic'])) # No matches  
 print(calls)  
 ```
-Вывод на консоль:
+##### Вывод на консоль:  
+```
 (8, 'CAPYBARA', 'capybara')  
 (10, 'ARMAGEDDON', 'armageddon')  
 True  
 False  
 4
-
+```
 #### Примечания:
 1. Для использования глобальной переменной внутри функции используйте оператор global.
 2. Для функции is_contains лучше привести и искомую строку и все строки в списке в один регистр.
